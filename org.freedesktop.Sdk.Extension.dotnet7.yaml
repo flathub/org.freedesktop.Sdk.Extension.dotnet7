@@ -16,8 +16,8 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/7.0.403/dotnet-sdk-7.0.403-linux-x64.tar.gz
-        sha256: 8a3c6bf5bfdf4f81775b7314b136bf96f0ba995804c66ae1cd787cb20365ec4e
+        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/7.0.404/dotnet-sdk-7.0.404-linux-x64.tar.gz
+        sha256: f57fb1c4f2cb1fa0310a4140bab22494add5b837f43aa25380fc84f98107a0d0
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/7.0/latest.version
@@ -25,8 +25,8 @@ modules:
           url-template: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$version/dotnet-sdk-$version-linux-x64.tar.gz
       - type: archive
         only-arches: [aarch64]
-        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/7.0.403/dotnet-sdk-7.0.403-linux-arm64.tar.gz
-        sha256: 460d57c0ff651560ff7c07b03404b77cb2f72017051623dd908be38df75cf782
+        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/7.0.404/dotnet-sdk-7.0.404-linux-arm64.tar.gz
+        sha256: 097b44412b10ec090ecf2716cddd6452e2c8467e67d42a9fae78264e578f61ee
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/7.0/latest.version
