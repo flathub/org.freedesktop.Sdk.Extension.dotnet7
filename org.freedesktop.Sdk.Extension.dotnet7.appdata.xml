@@ -12,6 +12,7 @@
   </description>
   <url type="homepage">https://dotnet.microsoft.com/</url>
   <releases>
+    <release version="7.0.407" date="2024-03-12"/>
     <release version="7.0.406" date="2024-02-13"/>
     <release version="7.0.405" date="2024-01-09"/>
     <release version="7.0.404" date="2023-11-14"/>
